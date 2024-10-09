@@ -1,7 +1,7 @@
 # Project Three - second turn in
 
-[Repo link](https://github.com/number1pride/webdev_project_three_b)
-[Live Link](https://number1pride.github.io/webdev_project_three_b/)
+- [Repo link](https://github.com/number1pride/webdev_project_three_b)
+- [Live Link](https://number1pride.github.io/webdev_project_three_b/)
 
 ## Changes to project three - first turn in
 
