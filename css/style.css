@@ -94,27 +94,32 @@ body {
 }
 
 #slider-container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    /* Center the content within the container */
+    text-align: center;
+    /* Add some margin for spacing */
     margin: 20px 0;
     /* Add some margin for spacing */
 }
 
 .slider {
-    max-width: 100%;
     /* Ensure the slider doesn't exceed the container width */
+    max-width: 100%;
     overflow: hidden;
     position: relative;
+    /* Center the slider */
+    margin: 0 auto;
 }
 
 .slide {
     width: 100%;
-    max-width: 600px;
     /* Optional: Set a maximum width for the images */
+    max-width: 600px;
     display: block;
-    margin: 0 auto;
     /* Center the images within the slider */
+    margin: 0 auto;
 }
 
 /* Responsive Design */
