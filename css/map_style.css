@@ -1,0 +1,68 @@
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wineries-list {
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Mobile styles for smaller screens */
+@media (max-width: 768px) {
+    #map {
+        height: 300px;
+        /* Reduce map height for smaller screens */
+    }
+
+    #wineries-list {
+        padding: 10px;
+        /* Add padding for better spacing */
+        font-size: 0.9rem;
+        /* Adjust font size for readability */
+    }
+
+    .controls {
+        margin: 10px;
+        /* Reduce margin for smaller screens */
+        text-align: center;
+        /* Center align controls */
+    }
+
+    select {
+        width: 100%;
+        /* Full width dropdown for easier selection */
+        font-size: 1rem;
+        /* Adjust font size for touch devices */
+    }
+}
+
+/* Styles for larger tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #map {
+        height: 400px;
+        /* Adjust map height */
+    }
+
+    #wineries-list {
+        max-width: 80%;
+        /* Constrain width for better layout */
+        margin: 0 auto;
+        /* Center align */
+    }
+
+    .controls {
+        margin: 15px;
+        /* Adjust margin */
+        text-align: left;
+        /* Align text to the left */
+    }
+
+    select {
+        width: 80%;
+        /* Wider dropdown but not full width */
+        font-size: 1rem;
+        /* Consistent font size */
+    }
+}
