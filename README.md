@@ -1,5 +1,10 @@
 # Project Three - second turn in
 
+[Repo link](https://github.com/number1pride/webdev_project_three_b)
+[Live Link](https://number1pride.github.io/webdev_project_three_b/)
+
+## Changes to project three - first turn in
+
 - cloned project 3, first turn-in
 - added mobile responsiveness to `wineries.html` page
 - fixed content typos
@@ -12,10 +17,3 @@
 - Used setInterval to automatically change slides every 3 seconds.
 - Adjusted the display of images using the showSlide function.
 - HTML Slider Structure: Added a basic image slider structure in index.html to hold images.
-
-## Next thing to add
-
-- add three features of google maps api.
-- The map should have 3 features added beyond the base code.
-  - heatmap?
-  - Markers?
